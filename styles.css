@@ -1,0 +1,46 @@
+body {
+  background-color: #fef3be;
+  font-family: "Oxygen", sans-serif;
+}
+
+.col:hover {
+  background-color: #e8e8e8;
+}
+
+.col {
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  height: 380px;
+}
+
+p{
+  text-align: center;
+  font-style: italic;
+}
+
+h1{
+  font-size: 48px;
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 85%;
+}
+
+.jumbotron{
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
+
+.footer {
+  height: 30px;
+}
