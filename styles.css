@@ -10,19 +10,19 @@ body {
 .gold {
   border-style: solid;
   border-color: #C9B037;
-  border-width: 15px;
+  border-width: 12px;
 }
 
 .silver {
   border-style: solid;
   border-color: #D7D7D7;
-  border-width: 15px;
+  border-width: 12px;
 }
 
 .bronze {
   border-style: solid;
   border-color: #AD8A56;
-  border-width: 15px;
+  border-width: 12px;
 }
 
 .col {
