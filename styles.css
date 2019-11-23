@@ -7,6 +7,24 @@ body {
   background-color: #e8e8e8;
 }
 
+.gold {
+  border-style: solid;
+  border-color: #C9B037;
+  border-width: 5px;
+}
+
+.silver {
+  border-style: solid;
+  border-color: #D7D7D7;
+  border-width: 5px;
+}
+
+.bronze {
+  border-style: solid;
+  border-color: #AD8A56;
+  border-width: 5px;
+}
+
 .col {
   padding: 15px;
   margin: 5px;
