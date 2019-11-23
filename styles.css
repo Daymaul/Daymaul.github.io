@@ -25,6 +25,13 @@ body {
   border-width: 15px;
 }
 
+.colFirst {
+  padding: 15px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  height: 405px;
+
 .col {
   padding: 15px;
   margin: 5px;
