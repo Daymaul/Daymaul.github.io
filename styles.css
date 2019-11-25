@@ -17,6 +17,7 @@
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  visibility: hidden;
 }
 
 .pic__face--back {
