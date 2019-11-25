@@ -10,7 +10,7 @@
 }
 
 .pic.is-flipped {
-  transform: perspective(600px) rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .pic__face {
@@ -20,7 +20,7 @@
 }
 
 .pic__face--back {
-  transform: perspective(600px) rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 body {
