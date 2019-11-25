@@ -1,3 +1,26 @@
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 85%;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
+
 body {
   background-color: #fef3be;
   font-family: "Oxygen", sans-serif;

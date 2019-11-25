@@ -13,6 +13,14 @@
   <link href="styles.css" type="text/css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
 
+  <!--<script type="text/javascript" src="flip.js"></script>-->
+  <script type="text/javascript">
+    var image = document.querySelector('.card');
+    image.addEventListener( 'click', function() {
+    image.classList.toggle('is-flipped');
+  });
+  </script>
+
 </head>
 <body>
 
@@ -23,290 +31,301 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col gold" style="padding: 3px;">
-        <h3>Colette Brunel</h3>
-        <img src="https://bit.ly/3338TNZ">
-        <p>Tales of Symphonia</p>
-      </div>
-      <div class="col silver" style="padding: 3px;">
-        <h3>Alice Zuberb</h3>
-        <img src="https://bit.ly/35q9z1j">
-        <p>Sword Art Online: Alicization</p>
-      </div>
-      <div class="col bronze" style="padding: 3px;">
-        <h3>Kosaki Onodera</h3>
-        <img src="https://bit.ly/35jE09w">
-        <p>Nisekoi</p>
-      </div>
-      <div class="col">
-        <h3>Sagiri Izumi</h3>
-        <img src="https://bit.ly/335WBUS">
-        <p>Eromanga Sensei</p>
-      </div>
-    </div>
+  <!-- <div class="col scene--card">
+  <div class="pic">
+  <div class="card__face card__face--front"><img src="https://bit.ly/35q9z1j"></div>
+  <div class="card__face card__face--back"><img src="https://bit.ly/2qHca8f"></div>
+</div>
+</div> -->
 
-    <div class="row">
-      <div class="col">
-        <h3>Kaori Miyazono</h3>
-        <img src="https://bit.ly/2O0UVYy">
-        <p>Your Lie In April</p>
-      </div>
-      <div class="col">
-        <h3>Akari Akaza</h3>
-        <img src="https://bit.ly/2KMsxHM">
-        <p>Yuru Yuri</p>
-      </div>
-      <div class="col">
-        <h3>Chino Kafuu</h3>
-        <img src="https://bit.ly/2CYqdJp">
-        <p>Is the Order a Rabbit?</p>
-      </div>
-      <div class="col">
-        <h3>Shiro</h3>
-        <img src="https://bit.ly/2KA4eML">
-        <p>No Game No Life</p>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col gold" style="padding: 3px;">
+      <h3>Colette Brunel</h3>
+      <img src="https://bit.ly/3338TNZ">
+      <p>Tales of Symphonia</p>
     </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Nao Tomori</h3>
-        <img src="https://bit.ly/2O4K6EI">
-        <p>Charlotte</p>
+    <div class="col silver" style="padding: 3px;">
+      <h3>Alice Zuberb</h3>
+      <div class="card">
+        <div class="card__face"><img src="https://bit.ly/35q9z1j"></div>
+        <div class="card__face card__face--back"><img src="https://bit.ly/2qHca8f"></div>
       </div>
-      <div class="col">
-        <h3>Noel</h3>
-        <img src="https://bit.ly/2OysD6G">
-        <p>Celestial Method</p>
-      </div>
-      <div class="col">
-        <h3>Nonoka Komiya</h3>
-        <img src="https://bit.ly/37rzG9M">
-        <p>Celestial Method</p>
-      </div>
-      <div class="col">
-        <h3>Aoba Suzuka</h3>
-        <img src="https://bit.ly/35kyMKp">
-        <p>New Game</p>
-      </div>
+      <!--<img src="https://bit.ly/35q9z1j">-->
+      <p>Sword Art Online: Alicization</p>
     </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Alice Cartelet</h3>
-        <img src="https://bit.ly/2D1pU0f">
-        <p>Kiniro Mosaic</p>
-      </div>
-      <div class="col">
-        <h3>Honoka Kosaka</h3>
-        <img src="https://bit.ly/2OvE1Aj">
-        <p>Love Live!</p>
-      </div>
-      <div class="col">
-        <h3>Chika Takami</h3>
-        <img src="https://bit.ly/345bgAY">
-        <p>Love Live! Sunshine!!</p>
-      </div>
-      <div class="col">
-        <h3>Meyrin Hawke</h3>
-        <img src="https://bit.ly/2OxgbEf">
-        <p>Gundam SEED Destiny</p>
-      </div>
+    <div class="col bronze" style="padding: 3px;">
+      <h3>Kosaki Onodera</h3>
+      <img src="https://bit.ly/35jE09w">
+      <p>Nisekoi</p>
     </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Lacus Clyne</h3>
-        <img src="https://bit.ly/2KMgM42">
-        <p>Gundam SEED</p>
-      </div>
-      <div class="col">
-        <h3>Tamako Kitashirakawa</h3>
-        <img src="https://bit.ly/2Ory1Zm">
-        <p>Tamako Market</p>
-      </div>
-      <div class="col">
-        <h3>Wakana Sakai</h3>
-        <img src="https://bit.ly/2O77KR6">
-        <p>Tari Tari</p>
-      </div>
-      <div class="col">
-        <h3>Konatsu Miyamoto</h3>
-        <img src="https://bit.ly/2KFTPzi">
-        <p>Tari Tari</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Kanade Tachibana</h3>
-        <img src="https://bit.ly/34akj3P">
-        <p>Angel Beats!</p>
-      </div>
-      <div class="col">
-        <h3>Kaede Azusagawa</h3>
-        <img src="https://bit.ly/35tzEMP">
-        <p>Aobuta </p>
-      </div>
-      <div class="col">
-        <h3>Tomoe Koga</h3>
-        <img src="https://bit.ly/37wvLJc">
-        <p>Aobuta </p>
-      </div>
-      <div class="col">
-        <h3>Mai Sakurajima</h3>
-        <img src="https://bit.ly/3385FIT">
-        <p>Aobuta </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Chiyo Sakura</h3>
-        <img src="https://bit.ly/2rjwQ69">
-        <p>Monthly Girls' Nozaki-kun</p>
-      </div>
-      <div class="col">
-        <h3>Kyouko Toshinou</h3>
-        <img src="https://bit.ly/3364vO2">
-        <p>Yuru Yuri</p>
-      </div>
-      <div class="col">
-        <h3>Ayano Keiko (Silica)</h3>
-        <img src="https://bit.ly/2D7GcEY">
-        <p>Sword Art Online</p>
-      </div>
-      <div class="col">
-        <h3>Yuuki Asuna (Asuna)</h3>
-        <img src="https://bit.ly/2XBS5MD">
-        <p>Sword Art Online</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Eru Chitanda</h3>
-        <img src="https://bit.ly/37rP4mO">
-        <p>Hyouka</p>
-      </div>
-      <div class="col">
-        <h3>Manaka Mukaido</h3>
-        <img src="https://bit.ly/37uPk4e">
-        <p>Nagi no Asukara</p>
-      </div>
-      <div class="col">
-        <h3>Miuna Shiodome</h3>
-        <img src="https://bit.ly/2O7HQwC">
-        <p>Nagi no Asukara</p>
-      </div>
-      <div class="col">
-        <h3>Illyasviel von Einzbern</h3>
-        <img src="https://bit.ly/2OajSkw">
-        <p>Fate/kaleid liner PRISMA☆ILLYA</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Haruka Amami</h3>
-        <img src="https://bit.ly/2ObjUIO">
-        <p>THE IDOLMA@STER</p>
-      </div>
-      <div class="col">
-        <h3>Chieri Ogata</h3>
-        <img src="https://bit.ly/2ObqvTq">
-        <p>THE IDOLM@STER</p>
-      </div>
-      <div class="col">
-        <h3>Cheria Barnes</h3>
-        <img src="https://bit.ly/37ultJp">
-        <p>Tales of Graces</p>
-      </div>
-      <div class="col">
-        <h3>Chiwa Harusaki</h3>
-        <img src="https://bit.ly/349EoXQ">
-        <p>Oreshura</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Chtholly Nota Seniorious</h3>
-        <img src="https://bit.ly/2pHVKvV">
-        <p>WorldEnd</p>
-      </div>
-      <div class="col">
-        <h3>Chika Fujiwara</h3>
-        <img src="https://bit.ly/33b0kk3">
-        <p>Kaguya-sama: Love is War</p>
-      </div>
-      <div class="col">
-        <h3>Tsukiko Tsutsukakushi</h3>
-        <img src="https://bit.ly/37xuSQw">
-        <p>Henneko</p>
-      </div>
-      <div class="col">
-        <h3>Kirino Kousaka</h3>
-        <img src="https://bit.ly/2scnZE9">
-        <p>OreImo</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Fuko Ibuki</h3>
-        <img src="https://bit.ly/37vTadx">
-        <p>Clannad</p>
-      </div>
-      <div class="col">
-        <h3>Ryou Fujibayashi</h3>
-        <img src="https://bit.ly/34dIL47">
-        <p>Clannad</p>
-      </div>
-      <div class="col">
-        <h3>Nagisa Furukawa</h3>
-        <img src="https://bit.ly/34dwr3L">
-        <p>Clannad</p>
-      </div>
-      <div class="col">
-        <h3>Yui Hirasawa</h3>
-        <img src="https://bit.ly/35sYFI9">
-        <p>K-On!</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col">
-        <h3>Azusa Nakano</h3>
-        <img src="https://bit.ly/35sYI6N">
-        <p>K-On!</p>
-      </div>
-      <div class="col">
-        <h3>Michiru Matsushima</h3>
-        <img src="https://bit.ly/2KO2hwB">
-        <p>Grisaia no Kajitsu</p>
-      </div>
-      <div class="col">
-        <h3>Ai Shindou</h3>
-        <img src="https://bit.ly/2XGWBJL">
-        <p>Beyond the Boundary</p>
-      </div>
-      <div class="col">
-        <h3>Nadeko Sengoku</h3>
-        <img src="https://bit.ly/2qFzcMN">
-        <p>Bakemonogatari</p>
-      </div>
+    <div class="col">
+      <h3>Sagiri Izumi</h3>
+      <img src="https://bit.ly/335WBUS">
+      <p>Eromanga Sensei</p>
     </div>
   </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <div class="footer">
+  <div class="row">
+    <div class="col">
+      <h3>Kaori Miyazono</h3>
+      <img src="https://bit.ly/2O0UVYy">
+      <p>Your Lie In April</p>
+    </div>
+    <div class="col">
+      <h3>Akari Akaza</h3>
+      <img src="https://bit.ly/2KMsxHM">
+      <p>Yuru Yuri</p>
+    </div>
+    <div class="col">
+      <h3>Chino Kafuu</h3>
+      <img src="https://bit.ly/2CYqdJp">
+      <p>Is the Order a Rabbit?</p>
+    </div>
+    <div class="col">
+      <h3>Shiro</h3>
+      <img src="https://bit.ly/2KA4eML">
+      <p>No Game No Life</p>
+    </div>
   </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Nao Tomori</h3>
+      <img src="https://bit.ly/2O4K6EI">
+      <p>Charlotte</p>
+    </div>
+    <div class="col">
+      <h3>Noel</h3>
+      <img src="https://bit.ly/2OysD6G">
+      <p>Celestial Method</p>
+    </div>
+    <div class="col">
+      <h3>Nonoka Komiya</h3>
+      <img src="https://bit.ly/37rzG9M">
+      <p>Celestial Method</p>
+    </div>
+    <div class="col">
+      <h3>Aoba Suzuka</h3>
+      <img src="https://bit.ly/35kyMKp">
+      <p>New Game</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Alice Cartelet</h3>
+      <img src="https://bit.ly/2D1pU0f">
+      <p>Kiniro Mosaic</p>
+    </div>
+    <div class="col">
+      <h3>Honoka Kosaka</h3>
+      <img src="https://bit.ly/2OvE1Aj">
+      <p>Love Live!</p>
+    </div>
+    <div class="col">
+      <h3>Chika Takami</h3>
+      <img src="https://bit.ly/345bgAY">
+      <p>Love Live! Sunshine!!</p>
+    </div>
+    <div class="col">
+      <h3>Meyrin Hawke</h3>
+      <img src="https://bit.ly/2OxgbEf">
+      <p>Gundam SEED Destiny</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Lacus Clyne</h3>
+      <img src="https://bit.ly/2KMgM42">
+      <p>Gundam SEED</p>
+    </div>
+    <div class="col">
+      <h3>Tamako Kitashirakawa</h3>
+      <img src="https://bit.ly/2Ory1Zm">
+      <p>Tamako Market</p>
+    </div>
+    <div class="col">
+      <h3>Wakana Sakai</h3>
+      <img src="https://bit.ly/2O77KR6">
+      <p>Tari Tari</p>
+    </div>
+    <div class="col">
+      <h3>Konatsu Miyamoto</h3>
+      <img src="https://bit.ly/2KFTPzi">
+      <p>Tari Tari</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Kanade Tachibana</h3>
+      <img src="https://bit.ly/34akj3P">
+      <p>Angel Beats!</p>
+    </div>
+    <div class="col">
+      <h3>Kaede Azusagawa</h3>
+      <img src="https://bit.ly/35tzEMP">
+      <p>Aobuta </p>
+    </div>
+    <div class="col">
+      <h3>Tomoe Koga</h3>
+      <img src="https://bit.ly/37wvLJc">
+      <p>Aobuta </p>
+    </div>
+    <div class="col">
+      <h3>Mai Sakurajima</h3>
+      <img src="https://bit.ly/3385FIT">
+      <p>Aobuta </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Chiyo Sakura</h3>
+      <img src="https://bit.ly/2rjwQ69">
+      <p>Monthly Girls' Nozaki-kun</p>
+    </div>
+    <div class="col">
+      <h3>Kyouko Toshinou</h3>
+      <img src="https://bit.ly/3364vO2">
+      <p>Yuru Yuri</p>
+    </div>
+    <div class="col">
+      <h3>Ayano Keiko (Silica)</h3>
+      <img src="https://bit.ly/2D7GcEY">
+      <p>Sword Art Online</p>
+    </div>
+    <div class="col">
+      <h3>Yuuki Asuna (Asuna)</h3>
+      <img src="https://bit.ly/2XBS5MD">
+      <p>Sword Art Online</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Eru Chitanda</h3>
+      <img src="https://bit.ly/37rP4mO">
+      <p>Hyouka</p>
+    </div>
+    <div class="col">
+      <h3>Manaka Mukaido</h3>
+      <img src="https://bit.ly/37uPk4e">
+      <p>Nagi no Asukara</p>
+    </div>
+    <div class="col">
+      <h3>Miuna Shiodome</h3>
+      <img src="https://bit.ly/2O7HQwC">
+      <p>Nagi no Asukara</p>
+    </div>
+    <div class="col">
+      <h3>Illyasviel von Einzbern</h3>
+      <img src="https://bit.ly/2OajSkw">
+      <p>Fate/kaleid liner PRISMA☆ILLYA</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Haruka Amami</h3>
+      <img src="https://bit.ly/2ObjUIO">
+      <p>THE IDOLMA@STER</p>
+    </div>
+    <div class="col">
+      <h3>Chieri Ogata</h3>
+      <img src="https://bit.ly/2ObqvTq">
+      <p>THE IDOLM@STER</p>
+    </div>
+    <div class="col">
+      <h3>Cheria Barnes</h3>
+      <img src="https://bit.ly/37ultJp">
+      <p>Tales of Graces</p>
+    </div>
+    <div class="col">
+      <h3>Chiwa Harusaki</h3>
+      <img src="https://bit.ly/349EoXQ">
+      <p>Oreshura</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Chtholly Nota Seniorious</h3>
+      <img src="https://bit.ly/2pHVKvV">
+      <p>WorldEnd</p>
+    </div>
+    <div class="col">
+      <h3>Chika Fujiwara</h3>
+      <img src="https://bit.ly/33b0kk3">
+      <p>Kaguya-sama: Love is War</p>
+    </div>
+    <div class="col">
+      <h3>Tsukiko Tsutsukakushi</h3>
+      <img src="https://bit.ly/37xuSQw">
+      <p>Henneko</p>
+    </div>
+    <div class="col">
+      <h3>Kirino Kousaka</h3>
+      <img src="https://bit.ly/2scnZE9">
+      <p>OreImo</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Fuko Ibuki</h3>
+      <img src="https://bit.ly/37vTadx">
+      <p>Clannad</p>
+    </div>
+    <div class="col">
+      <h3>Ryou Fujibayashi</h3>
+      <img src="https://bit.ly/34dIL47">
+      <p>Clannad</p>
+    </div>
+    <div class="col">
+      <h3>Nagisa Furukawa</h3>
+      <img src="https://bit.ly/34dwr3L">
+      <p>Clannad</p>
+    </div>
+    <div class="col">
+      <h3>Yui Hirasawa</h3>
+      <img src="https://bit.ly/35sYFI9">
+      <p>K-On!</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Azusa Nakano</h3>
+      <img src="https://bit.ly/35sYI6N">
+      <p>K-On!</p>
+    </div>
+    <div class="col">
+      <h3>Michiru Matsushima</h3>
+      <img src="https://bit.ly/2KO2hwB">
+      <p>Grisaia no Kajitsu</p>
+    </div>
+    <div class="col">
+      <h3>Ai Shindou</h3>
+      <img src="https://bit.ly/2XGWBJL">
+      <p>Beyond the Boundary</p>
+    </div>
+    <div class="col">
+      <h3>Nadeko Sengoku</h3>
+      <img src="https://bit.ly/2qFzcMN">
+      <p>Bakemonogatari</p>
+    </div>
+  </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<div class="footer">
+</div>
 </body>
 </html>
