@@ -10,17 +10,17 @@
 }
 
 .pic.is-flipped {
-  transform: rotateY(180deg);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  transform: perspective(600px) rotateY(180deg);
 }
 
 .pic__face {
   position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .pic__face--back {
-  transform: rotateY(180deg);
+  transform: perspective(600px) rotateY(180deg);
 }
 
 body {
