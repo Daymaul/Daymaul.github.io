@@ -1,4 +1,4 @@
-.card {
+.pic {
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -9,15 +9,15 @@
   height: 85%;
 }
 
-.card.is-flipped {
+.pic.is-flipped {
   transform: rotateY(180deg);
 }
 
-.card__face {
+.pic__face {
   position: absolute;
 }
 
-.card__face--back {
+.pic__face--back {
   transform: rotateY(180deg);
 }
 
