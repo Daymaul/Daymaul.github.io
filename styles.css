@@ -1,4 +1,4 @@
-.pic {
+.pic1 {
   transition: transform 1s;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -9,17 +9,67 @@
   height: 85%;
 }
 
-.pic.is-flipped {
+.pic1.is-flipped {
   transform: rotateY(180deg);
 }
 
-.pic__face {
+.pic1__face {
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-.pic__face--back {
+.pic1__face--back {
+  transform: rotateY(180deg);
+}
+
+.pic2 {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 85%;
+}
+
+.pic2.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.pic2__face {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.pic2__face--back {
+  transform: rotateY(180deg);
+}
+
+.pic3 {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 85%;
+}
+
+.pic3.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.pic3__face {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.pic3__face--back {
   transform: rotateY(180deg);
 }
 
